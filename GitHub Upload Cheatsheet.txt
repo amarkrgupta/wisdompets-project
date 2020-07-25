@@ -1,0 +1,15 @@
+touch .gitignore
+git config --global user.name "Amar Kumar Gupta"
+git config --global user.email "amarkrgupta96@gmail.com"
+git init
+git add.
+git commit -m "Initial commit"
+git status
+git remote add origin <SSH url.git>
+git push origin master
+ssh-keygen -t -rsa -b 4096 -C "amarkrgupta96@gmail.com"
+cat <path to id_rsa.pub>
+git push origin master
+
+
+
